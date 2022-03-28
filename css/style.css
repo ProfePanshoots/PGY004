@@ -1,0 +1,17 @@
+
+/* ESTILOS DEL NAV PILLS */
+.nav-link {
+    color: white;
+}
+
+.nav-link .fa {
+    transition: all 1s;
+}
+
+.nav-link:hover .fa {
+    transform: rotate(360deg);
+}
+
+.activo {
+    background-color: gray;
+}
