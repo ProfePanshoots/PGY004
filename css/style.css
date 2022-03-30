@@ -10,8 +10,29 @@
 
 .nav-link:hover .fa {
     transform: rotate(360deg);
+    font-size: 18px;
+    
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: gray;
 }
 
 .activo {
     background-color: gray;
+}
+
+.perfil {
+    background-image: url("../img/fondoperfil.jpg");
+}
+
+.color-izq {
+    background-color: rgb(99, 97, 97);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
